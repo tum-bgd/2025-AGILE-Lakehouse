@@ -1,0 +1,28 @@
+[package]
+name = "pc-format"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+
+[dependencies]
+ahash = { workspace = true }
+async-trait = { workspace = true }
+dashmap = { workspace = true }
+datafusion = { workspace = true }
+futures = { workspace = true }
+itertools = { workspace = true }
+moka = { version = "0.12.10", features = ["sync"] }
+num-traits = { workspace = true }
+rand = { workspace = true }
+rayon = { workspace = true }
+rstar = { workspace = true }
+serde = { workspace = true }
+tempfile = "3.19"
+thiserror = { workspace = true }
+uuid = { workspace = true }
+
+[dev-dependencies]
+nalgebra = "0.33.2"
+rand = { workspace = true }
+simplers_optimization = "0.4.3"

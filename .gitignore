@@ -1,0 +1,21 @@
+# Data
+data/
+data
+
+# Logs
+logs/
+
+# Rust
+target/
+
+# Python
+.venv
+
+# Profiling (samply)
+profile.json
+
+# Potree
+PotreeConverter/
+
+# LAStools
+lastools/
